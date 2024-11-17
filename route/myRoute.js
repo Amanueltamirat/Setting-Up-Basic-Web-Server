@@ -21,7 +21,7 @@ Router.get('/name',(req,res)=>{
 Router.get('/hobby',(req,res)=>{
     
        try {
-        res.status(200).send('Watching Soccer, Reading Books,Playing video games');
+        res.status(200).json({hobby:["Watching Soccer", "Reading Books","Playing video games"]});
     } catch (error) {
         res.status(500).send({message:'Something went wrong!'})
     }
