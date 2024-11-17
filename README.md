@@ -23,15 +23,16 @@ cd backend
 ```
 3.Install dependencies:
 
-```
-npm install
 ```bash
+npm install
+```
 
 4. Run the following command to start the application:
 
-```
+```bash
   npm run start
 ```
+
 Open the following URL in your browser to see live demo:
 ```bash
  https://setting-up-web-server.onrender.com
