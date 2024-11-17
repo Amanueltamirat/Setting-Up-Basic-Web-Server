@@ -1,4 +1,4 @@
-# setting up basic web server with Node.js
+# Setting up basic web server with Node.js
 This project demonstrates how to create a simple web server using Node.js and Express. The server responds to three specific routes with static messages.
 
 ## The server has the following routes:
