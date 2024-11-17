@@ -32,7 +32,13 @@ npm install
 ```bash
   npm run start
 ```
-
+5. Run the server locally by using the following url
+```bash
+http://localhost:5000
+http://localhost:5000/name
+http://localhost:5000/hobby
+http://localhost:5000/dream
+```
 Open the following URL in your browser to see live demo:
 ```bash
  https://setting-up-web-server.onrender.com
