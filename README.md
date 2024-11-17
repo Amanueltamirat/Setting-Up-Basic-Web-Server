@@ -2,15 +2,13 @@
 This project demonstrates how to create a simple web server using Node.js and Express. The server responds to three specific routes with static messages.
 
 ## The server has the following routes:
- GET /
+ 1 GET /
    - Home page
- GET /name
+ 2 GET /name
    - Displays full name
-   - 
- Get /hobby
+ 3 Get /hobby
     - My hobby
-     
- GET /dream
+ 4 GET /dream
     - My dream
     
 ## Installation
@@ -39,6 +37,6 @@ npm install
   npm run start
 ```
 Open the following URL in your browser to see live demo:
-```
+```bash
  https://setting-up-web-server.onrender.com
 ```
