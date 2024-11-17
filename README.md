@@ -2,14 +2,10 @@
 This project demonstrates how to create a simple web server using Node.js and Express. The server responds to three specific routes with static messages.
 
 ## The server has the following routes:
- 1 GET /
-   - Home page
- 2 GET /name
-   - Displays full name
- 3 Get /hobby
-    - My hobby
- 4 GET /dream
-    - My dream
+    - GET /
+    - GET /name
+    - Get /hobby
+    - GET /dream
     
 ## Installation
 Use the package manager npm to install dependencies.
@@ -27,13 +23,13 @@ cd backend
 ```
 3.Install dependencies:
 
-```bash
+```
 npm install
 ```bash
 
 4. Run the following command to start the application:
 
-```bash
+```
   npm run start
 ```
 Open the following URL in your browser to see live demo:
